@@ -35,7 +35,7 @@ jobs:
             sudo chmod 777 -R *
             ./bhlnk.sh
        - name: Upload a Build Artifact
-         uses: actions/upload-artifact@v3.1.1
+         uses: actions/upload-artifact@v4
          with:
           # Artifact name
            name: services_patched_bhlnk.zip
